@@ -144,5 +144,5 @@ function makeClone(obj) {
 }
 
 function tryParse(val) {
-    return parseInt(val, 10) || val;
+    return Number(val) || val;
 }
